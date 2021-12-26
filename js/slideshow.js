@@ -60,8 +60,6 @@ function startTransition(direction){
     transitioning = true;
     
     index = (((index + direction) % imageData.length) + imageData.length) % imageData.length;
-    
-    console.log(index);
 
     otherImage.setAttribute("src", imageData[index].img);
     mainImage.classList.toggle("switching", true);
