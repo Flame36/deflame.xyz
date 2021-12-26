@@ -13,4 +13,5 @@
 <script src="/js/easterEggs.js"></script>
 <script>const ip = "<?php echo $_SERVER['REMOTE_ADDR']; ?>"</script>
 <script src="//openinternet.io/tor/istor.js"></script>
+<script src="/js/themeManager.js"></script>
 

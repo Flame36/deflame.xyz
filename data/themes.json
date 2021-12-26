@@ -1,0 +1,15 @@
+{
+    "default": [
+        ["--text-color", "beige"],
+        ["--dark-color", "#222"],
+        ["--light-color", "#303030"],
+        ["--socials-background", "#2d2d2d"],
+        ["--footer-text-color", "#5f5f5f"]
+    ],
+    "tor": [
+        ["--dark-color", "#201226"],
+        ["--light-color", "#452754"],
+        ["--socials-background", "#452754"],
+        ["--footer-text-color", "#563069"]
+    ]
+}
