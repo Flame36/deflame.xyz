@@ -1,9 +1,10 @@
+<?php $code = $_GET['c'] ?? '200'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/head.php" ?>
 
-    <title>Error <?php echo http_response_code() ?></title>
+    <title>Error <?php echo $code ?></title>
 
     <link rel="stylesheet" href="/css/error.css" />
   </head>
@@ -12,9 +13,9 @@
     <div class="main">
       <div class="main-container">
         <div class="error">
-          <h1>Oopsie, error <?php echo http_response_code() ?></h1>
+          <h1>Oopsie, error <?php echo $code ?></h1>
           <p id="description" >We couldn't even get the description :_(</p>
-          <script>const code = <?php echo http_response_code() ?>;</script>
+          <script>const code = <?php echo $code ?>;</script>
           <script src="/js/errorCode.js"></script>
           <div class="button-wrapper">
             <button>
