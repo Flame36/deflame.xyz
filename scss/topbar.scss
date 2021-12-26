@@ -3,7 +3,7 @@
 }
 
 .topbar {
-    background: #222;
+    background: var(--dark-color);
     height: var(--topbar-height);
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 999;
+    z-index: 999; 
 }
 
 .topbar-container {
@@ -108,7 +108,7 @@
     }
 
     .topbar-menu.active {
-        background: #222;
+        background: var(--dark-color);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
