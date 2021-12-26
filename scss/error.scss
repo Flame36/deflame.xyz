@@ -1,0 +1,45 @@
+.main-container {
+    justify-content: center;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    .link {
+        font-size: 1.5rem;
+        &:hover {
+            color: #e0d0a0;
+            transition: all 0.3s ease;
+        }
+    }
+
+    .button-wrapper {
+        display: flex; 
+        align-self: center;
+        width: 160px;
+        margin-top: 10px;
+        .button-text {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}

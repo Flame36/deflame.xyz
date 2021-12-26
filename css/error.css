@@ -1,0 +1,58 @@
+.main-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.error h1 {
+  font-size: 6rem;
+}
+
+.error p {
+  font-size: 2rem;
+}
+
+.error .link {
+  font-size: 1.5rem;
+}
+
+.error .link:hover {
+  color: #e0d0a0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.error .button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 160px;
+  margin-top: 10px;
+}
+
+.error .button-wrapper .button-text {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .error h1 {
+    font-size: 2.5rem;
+  }
+  .error p {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=error.css.map */
