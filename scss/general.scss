@@ -68,6 +68,10 @@ button:hover {
     background: #000;
 }
 
+::-webkit-scrollbar-corner { 
+    background: rgba(0,0,0,0); 
+}
+
 .main {
     background-color: var(--light-color);
 }

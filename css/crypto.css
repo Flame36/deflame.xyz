@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro:wght@700&display=swap");
+.main-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+}
+
+.main-container .keys {
+  margin: 50px 0;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.main-container .keys .key-text {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1rem;
+  max-height: 60vh;
+  max-width: 40rem;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.main-container .keys h2 {
+  font-size: 3rem;
+}
+
+.main-container .keys .main {
+  padding: 40px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 25px;
+  background-color: var(--dark-color);
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container .keys {
+    margin: 50px 20px;
+  }
+  .main-container .keys .key-text {
+    font-size: .7rem;
+    max-width: 30rem;
+  }
+  .main-container .keys h2 {
+    font-size: 1.5rem;
+  }
+  .main-container .keys p {
+    font-size: .7rem;
+  }
+}
+/*# sourceMappingURL=crypto.css.map */

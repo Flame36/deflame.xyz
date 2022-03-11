@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro:wght@700&display=swap');
+
+.main-container {
+    flex-flow: column;
+    text-align: center;
+
+    .keys {
+        margin: 50px 0;
+        align-self: stretch;
+
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
+        flex-grow: 1;
+
+        .key-text {
+            margin: 0 auto;
+            
+            padding: 20px;
+            
+            font-family: 'Inconsolata', monospace;
+            font-size: 1rem;
+
+            max-height: 60vh;
+            max-width: 40rem;
+            overflow-y: scroll;
+            overflow-x: scroll;
+        }
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .main {
+            padding: 40px;
+            align-content: center;
+            border-radius: 25px;
+            background-color: var(--dark-color);
+
+            flex-grow: 1;
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .main-container {
+        .keys {
+            margin: 50px 20px;
+
+            .key-text {
+                font-size: .7rem;
+                max-width: 30rem;
+            }
+    
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: .7rem;
+            }
+        }
+    
+    }
+}
