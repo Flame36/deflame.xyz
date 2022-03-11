@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/head.html" ?>
+    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/head.php" ?>
 
     <title>Flame's Website: Title</title>
 
@@ -13,6 +13,6 @@
           
       </div>
     </div>
-    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.html" ?>
+    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.php" ?>
   </body>
 </html>

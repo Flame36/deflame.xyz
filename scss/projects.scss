@@ -1,0 +1,31 @@
+.main-container {
+    flex-direction: column;
+
+    h1 {
+        padding: 20px 0 0;
+        font-size: 5rem;
+    }
+
+    .projects {
+        border-radius: 25px;
+        background-color: var(--dark-color);
+        margin: 20px 20px 50px;
+        padding: 0 15px;
+
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        #template {
+            display: none;
+        }
+
+        .project {
+            border-radius: 25px;
+            background-color: var(--light-color);
+            padding: 20px;
+            margin: 20px 0;
+        }
+    }
+}

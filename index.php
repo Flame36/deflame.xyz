@@ -33,6 +33,6 @@
         <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/slideshow.html" ?>
       </div>
     </div>
-    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.html" ?>
+    <?php require $_SERVER["DOCUMENT_ROOT"] . "/templates/footer.php" ?>
   </body>
 </html>

@@ -1,0 +1,42 @@
+.main-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container h1 {
+  padding: 20px 0 0;
+  font-size: 5rem;
+}
+
+.main-container .projects {
+  border-radius: 25px;
+  background-color: var(--dark-color);
+  margin: 20px 20px 50px;
+  padding: 0 15px;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.main-container .projects #template {
+  display: none;
+}
+
+.main-container .projects .project {
+  border-radius: 25px;
+  background-color: var(--light-color);
+  padding: 20px;
+  margin: 20px 0;
+}
+/*# sourceMappingURL=projects.css.map */
