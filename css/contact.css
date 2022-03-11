@@ -1,0 +1,130 @@
+.main-container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container .contacts {
+  border-radius: 25px;
+  background-color: var(--dark-color);
+  padding: 20px;
+  margin: 20px 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-container .contacts .section {
+  margin: 20px;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-container .contacts .section ul {
+  list-style-position: inside;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main-container .contacts .section#social {
+  padding: 10px 100px;
+}
+
+.main-container .contacts .section#social ul {
+  list-style-type: none;
+}
+
+.main-container .contacts .section li {
+  margin: .5rem 0;
+}
+
+.main-container .contacts .section h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 3rem;
+}
+
+.main-container .contacts .section p, .main-container .contacts .section i, .main-container .contacts .section ul {
+  font-size: 2rem;
+}
+
+.main-container .contacts .section .twitter, .main-container .contacts .section .facebook, .main-container .contacts .section .instagram, .main-container .contacts .section .github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-container .contacts .section .twitter .i-wrapper, .main-container .contacts .section .facebook .i-wrapper, .main-container .contacts .section .instagram .i-wrapper, .main-container .contacts .section .github .i-wrapper {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .main-container .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    margin: 30px;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .main-container .contacts .section li {
+    margin: .25rem 0;
+  }
+  .main-container .contacts .section h2 {
+    font-size: 2rem;
+  }
+  .main-container .contacts .section p, .main-container .contacts .section i, .main-container .contacts .section ul {
+    font-size: 1.5rem;
+  }
+  .main-container .contacts .section .twitter .i-wrapper, .main-container .contacts .section .facebook .i-wrapper, .main-container .contacts .section .instagram .i-wrapper, .main-container .contacts .section .github .i-wrapper {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main-container .contacts .section ul {
+    list-style-type: none;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
