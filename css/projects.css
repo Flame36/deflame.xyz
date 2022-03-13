@@ -38,5 +38,11 @@
   background-color: var(--light-color);
   padding: 20px;
   margin: 20px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-container .projects .project:hover {
+  background-color: var(--dark-color);
 }
 /*# sourceMappingURL=projects.css.map */
