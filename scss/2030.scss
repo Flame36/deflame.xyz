@@ -1,0 +1,64 @@
+:root {
+    --text-color: #000 !important;
+    --dark-color: hsl(356, 79%, 43%) !important;
+    --light-color: hsl(356, 79%, 85%) !important;
+    --socials-background: hsl(356, 79%, 33%) !important;
+    --footer-text-color: #000 !important;
+}
+
+.topbar {
+    background: linear-gradient(0.25turn, var(--dark-color), var(--dark-color), var(--light-color), var(--light-color), var(--light-color), var(--light-color));
+}
+
+.main-container {
+    .article {
+        
+        // background-color: hsl(356, 79%, 75%);
+        padding: 20px 50px 80px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 1.25em;
+        }
+
+        .active {
+            &.author-ciro {
+                background-color: #00ff00;
+            }
+    
+            &.author-donato {
+    
+            }
+    
+            &.author-giovanni {
+    
+            }
+    
+            &.author-francesco {
+    
+            }
+    
+            &.author-giosue {
+    
+            }
+        }
+
+    }
+}
