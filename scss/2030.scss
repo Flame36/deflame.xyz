@@ -20,6 +20,20 @@
         flex-direction: column;
         align-items: stretch;
 
+        img {
+            margin-top: 30px;
+        }
+
+        #img-1 {
+            max-width: 50%;
+            align-self: center;
+        }
+
+        #img-2 {
+            max-width: 30%;
+            align-self: center;
+        }
+
         h1, h2 {
             text-align: center;
         }
@@ -33,7 +47,7 @@
             font-size: 2em;
         }
 
-        p {
+        p, ul, li {
             text-align: justify;
             font-size: 1.25em;
         }

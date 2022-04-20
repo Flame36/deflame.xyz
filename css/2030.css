@@ -25,6 +25,24 @@
           align-items: stretch;
 }
 
+.main-container .article img {
+  margin-top: 30px;
+}
+
+.main-container .article #img-1 {
+  max-width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.main-container .article #img-2 {
+  max-width: 30%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .main-container .article h1, .main-container .article h2 {
   text-align: center;
 }
@@ -38,7 +56,7 @@
   font-size: 2em;
 }
 
-.main-container .article p {
+.main-container .article p, .main-container .article ul, .main-container .article li {
   text-align: justify;
   font-size: 1.25em;
 }
